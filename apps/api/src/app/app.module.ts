@@ -5,7 +5,6 @@ import { join } from 'path';
 
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-// import { ssrPath } from '../util/env';
 
 @Module({
   imports: [
