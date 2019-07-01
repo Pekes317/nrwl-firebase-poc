@@ -1,0 +1,24 @@
+{
+  "npmScope": "nrwl-poc",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "nrwl-poc-e2e": {
+      "tags": []
+    },
+    "nrwl-poc": {
+      "tags": []
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interface": {
+      "tags": []
+    }
+  }
+}
