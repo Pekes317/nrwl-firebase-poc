@@ -24,7 +24,8 @@
             "tsConfig": "apps/nrwl-poc/tsconfig.app.json",
             "assets": [
               "apps/nrwl-poc/src/favicon.ico",
-              "apps/nrwl-poc/src/assets"
+              "apps/nrwl-poc/src/assets",
+              "apps/nrwl-poc/src/manifest.webmanifest"
             ],
             "styles": ["apps/nrwl-poc/src/styles.scss"],
             "scripts": []
@@ -52,7 +53,9 @@
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
                 }
-              ]
+              ],
+              "serviceWorker": true,
+              "ngswConfigPath": "apps/nrwl-poc/ngsw-config.json"
             }
           }
         },
